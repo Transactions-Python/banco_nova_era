@@ -7,7 +7,7 @@ Projeto de estudos na Etec Taboão da Serra, onde será desenvolvida em equipe u
 <h5>Lucas Muniz</h5>
 <h5>Leonardo Luigi</h5>
 <h5>José Thomaz</h5>
-<br><br><br>
+<br>
 Rode esse comando em seu terminal para instalar as dependências do nosso projeto em sua máquina
 
 `pip install -R requirements.txt`
