@@ -2,3 +2,4 @@ pyttsx3
 SpeechRecognition
 wheels
 mysql-connector-python
+PyAudio
