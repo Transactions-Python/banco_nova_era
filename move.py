@@ -16,15 +16,18 @@ while num==1:
 
     if choice.lower() in('s', 'y', 'sim'):
         speak("Qual operação deseja realizar?")
-        operacao = str(input("Operações: (1-Consultar, 2-Transferir, 3- Ver Extrato)        "))
+        operacao = str(input("Operações: (1- Consultar, 2- Criar conta, 3- Transferir, 4- Ver Extrato)        "))
 
         if operacao.lower() in('consultar', '1', 1):
             speak("Ok, estou trabalhando nisso!")
+            
+        elif operacao.lower() in('criar conta', '2', 2):
+            speak("Ok, estou trabalhando nisso!")
 
-        elif operacao.lower() in('transferir','2',2):
+        elif operacao.lower() in('transferir','3',3):
             speak("Ok, estou trabalhando nisso!")
             
-        elif operacao.lower() in('ver extrato','3',3):
+        elif operacao.lower() in('ver extrato','4',4):
             speak("Ok, estou trabalhando nisso!")
 
         else:
