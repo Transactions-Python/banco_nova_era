@@ -1,5 +1,6 @@
 import os
 import time
+from cadastro import main as cd
 def principal():
     lista = [] 
     while True:
@@ -9,7 +10,9 @@ def principal():
         print("1 - Acessar área de alimentação de cédulas")
         print("2 - Sangria")
         print("3 - Acessar área de relatórios")
+        print("4 - Cadastrar Administrador")
         print("4 - Sair")
+       
         opcao = int(input("Digite qual área gostaria de acessar:"))
 
         if opcao == 1:
@@ -30,7 +33,14 @@ def principal():
             #Aqui a area de relatórios onde irá gerar um arquivo txt
 
         if opcao == 4:
+            cd()
+            # Aqui a area para cadastro
+      
+
+        if opcao == 5:
             print("\n Saindo do Programa...")
-            break
+            break 
+
+        
 
 principal()
