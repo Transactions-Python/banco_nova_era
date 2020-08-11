@@ -11,7 +11,7 @@ def principal():
         print("2 - Sangria")
         print("3 - Acessar área de relatórios")
         print("4 - Cadastrar Administrador")
-        print("4 - Sair")
+        print("5 - Sair")
        
         opcao = int(input("Digite qual área gostaria de acessar:"))
 
