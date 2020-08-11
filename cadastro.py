@@ -36,7 +36,7 @@ def deletarAdministrador():
 def main():
     print('              MENU')
     print('1. Novo Administrador\n2. Buscar administrador pelo nome')
-    print('3. Atualizar administrador\n4. Apagar administrador\n0. Sair')
+    print('3. Atualizar administrador\n4. Apagar administrador\n0. Voltar ao menu')
     op = 1
     while op!=0:
         op = int(input('\nDigite a opção: '))
